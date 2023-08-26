@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016.06.09 16:47:33.473.pas,C:\Users\user\Documents\Borland Studio Projects\Unit1.pas=G:\таймер3\Unit1.pas</Transaction>
+    <Transaction>2016.06.09 16:47:33.481.dfm,C:\Users\user\Documents\Borland Studio Projects\Unit1.dfm=G:\таймер3\Unit1.dfm</Transaction>
+    <Transaction>2016.06.09 16:47:52.649.bdsproj,C:\Users\user\Documents\Borland Studio Projects\Project1.bdsproj=G:\таймер3\timer.bdsproj</Transaction>
+    <Transaction>2016.06.17 11:53:19.509.bdsproj,C:\Users\user\Desktop\2016.06.16_таймер3\таймер3\timer.bdsproj=C:\Users\user\Desktop\2016.06.17_таймер3\timer.bdsproj</Transaction>
+    <Transaction>2016.06.17 11:54:07.614.bdsproj,C:\Users\user\Desktop\2016.06.17_таймер3\timer.bdsproj=C:\Users\user\Desktop\2016.06.17_таймер3\timer.bdsproj</Transaction>
+    <Transaction>2016.06.17 11:55:11.749.pas,C:\Users\user\Desktop\2016.06.16_таймер3\таймер3\Unit1.pas=C:\Users\user\Desktop\2016.06.17_таймер3\Unit1.pas</Transaction>
+    <Transaction>2016.06.17 11:55:11.749.dfm,C:\Users\user\Desktop\2016.06.16_таймер3\таймер3\Unit1.dfm=C:\Users\user\Desktop\2016.06.17_таймер3\Unit1.dfm</Transaction>
+    <Transaction>2016.06.17 11:55:27.369.bdsproj,C:\Users\user\Desktop\2016.06.17_таймер3\timer.bdsproj=C:\Users\user\Desktop\2016.06.17_таймер3\timer.bdsproj</Transaction>
+    <Transaction>2017.09.29 13:25:31.696.pas,E:\2016.06.17_таймер3\Unit1.pas=E:\2016.06.17_таймер3\Unit1_20170929.pas</Transaction>
+    <Transaction>2017.09.29 13:25:31.696.dfm,E:\2016.06.17_таймер3\Unit1.dfm=E:\2016.06.17_таймер3\Unit1_20170929.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

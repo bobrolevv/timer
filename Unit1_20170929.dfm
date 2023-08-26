@@ -1,0 +1,390 @@
+object Form1: TForm1
+  Left = 702
+  Top = 154
+  Width = 1103
+  Height = 750
+  Align = alClient
+  Caption = 'Form1'
+  Color = clBtnFace
+  Constraints.MinHeight = 100
+  Constraints.MinWidth = 600
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PopupMenu = PopupMenu1
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnResize = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 111
+    Top = 31
+    Width = 57
+    Height = 19
+    Caption = '0:00:00'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 111
+    Top = 56
+    Width = 31
+    Height = 13
+    Caption = #1088#1072#1091#1085#1076
+    Visible = False
+  end
+  object Label3: TLabel
+    Left = 111
+    Top = 90
+    Width = 57
+    Height = 19
+    Caption = '0:00:00'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clTeal
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    Visible = False
+  end
+  object Label4: TLabel
+    Left = 111
+    Top = 115
+    Width = 31
+    Height = 13
+    Caption = #1088#1072#1091#1085#1076
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clTeal
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    Visible = False
+  end
+  object Label5: TLabel
+    Left = 111
+    Top = 278
+    Width = 30
+    Height = 33
+    Caption = '10'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clLime
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    Visible = False
+  end
+  object Button1: TButton
+    Left = 0
+    Top = 627
+    Width = 1070
+    Height = 28
+    Caption = #1085#1072#1089#1090#1088#1086#1080#1090#1100
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 965
+    Top = 0
+    Width = 105
+    Height = 627
+    Caption = #1089#1073#1088#1086#1089#1080#1090#1100
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 0
+    Top = 0
+    Width = 105
+    Height = 627
+    Caption = #1089#1090#1072#1088#1090
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Panel2: TPanel
+    Left = 111
+    Top = 442
+    Width = 136
+    Height = 60
+    Caption = 'Panel2'
+    TabOrder = 3
+    Visible = False
+    OnResize = FormCreate
+    object TrackBar1: TTrackBar
+      Left = 0
+      Top = 0
+      Width = 45
+      Height = 50
+      Max = 23
+      Orientation = trVertical
+      TabOrder = 0
+      OnChange = TrackBar1Change
+    end
+    object TrackBar2: TTrackBar
+      Left = 40
+      Top = 0
+      Width = 45
+      Height = 50
+      Max = 59
+      Orientation = trVertical
+      TabOrder = 1
+      OnChange = TrackBar2Change
+    end
+    object TrackBar3: TTrackBar
+      Left = 91
+      Top = 2
+      Width = 45
+      Height = 50
+      Max = 59
+      Orientation = trVertical
+      TabOrder = 2
+      OnChange = TrackBar3Change
+    end
+  end
+  object Panel3: TPanel
+    Left = 253
+    Top = 442
+    Width = 242
+    Height = 60
+    Caption = 'Panel3'
+    TabOrder = 4
+    Visible = False
+    OnClick = Panel3Click
+    OnResize = FormCreate
+    object TrackBar4: TTrackBar
+      Left = 6
+      Top = 5
+      Width = 45
+      Height = 50
+      Max = 23
+      Orientation = trVertical
+      TabOrder = 0
+      OnChange = TrackBar4Change
+    end
+    object TrackBar5: TTrackBar
+      Left = 48
+      Top = 2
+      Width = 45
+      Height = 50
+      Max = 59
+      Orientation = trVertical
+      TabOrder = 1
+      OnChange = TrackBar5Change
+    end
+    object TrackBar6: TTrackBar
+      Left = 161
+      Top = 5
+      Width = 45
+      Height = 50
+      Max = 59
+      Orientation = trVertical
+      TabOrder = 2
+      OnChange = TrackBar6Change
+    end
+    object TrackBar7: TTrackBar
+      Left = 197
+      Top = 3
+      Width = 45
+      Height = 50
+      Max = 100
+      Orientation = trVertical
+      TabOrder = 3
+      OnChange = TrackBar7Change
+    end
+  end
+  object Panel4: TPanel
+    Left = 543
+    Top = 442
+    Width = 282
+    Height = 60
+    Caption = 'Panel4'
+    TabOrder = 5
+    Visible = False
+    OnResize = FormCreate
+    object TrackBar8: TTrackBar
+      Left = 0
+      Top = 0
+      Width = 45
+      Height = 50
+      Max = 23
+      Orientation = trVertical
+      TabOrder = 0
+      OnChange = TrackBar8Change
+    end
+    object TrackBar9: TTrackBar
+      Left = 19
+      Top = 0
+      Width = 45
+      Height = 50
+      Max = 59
+      Orientation = trVertical
+      TabOrder = 1
+      OnChange = TrackBar9Change
+    end
+    object TrackBar10: TTrackBar
+      Left = 43
+      Top = 0
+      Width = 45
+      Height = 50
+      Max = 59
+      Orientation = trVertical
+      TabOrder = 2
+      OnChange = TrackBar10Change
+    end
+    object TrackBar11: TTrackBar
+      Left = 128
+      Top = 0
+      Width = 45
+      Height = 50
+      Max = 23
+      Orientation = trVertical
+      TabOrder = 3
+      OnChange = TrackBar11Change
+    end
+    object TrackBar12: TTrackBar
+      Left = 160
+      Top = 0
+      Width = 45
+      Height = 50
+      Max = 59
+      Orientation = trVertical
+      TabOrder = 4
+      OnChange = TrackBar12Change
+    end
+    object TrackBar13: TTrackBar
+      Left = 195
+      Top = 0
+      Width = 45
+      Height = 50
+      Max = 59
+      Orientation = trVertical
+      TabOrder = 5
+      OnChange = TrackBar13Change
+    end
+    object TrackBar14: TTrackBar
+      Left = 238
+      Top = 0
+      Width = 45
+      Height = 50
+      Max = 100
+      Orientation = trVertical
+      TabOrder = 6
+      OnChange = TrackBar14Change
+    end
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 0
+    Top = 655
+    Width = 1087
+    Height = 56
+    Align = alBottom
+    Columns = 6
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ItemIndex = 0
+    Items.Strings = (
+      #1095#1072#1089#1099
+      #1090#1072#1081#1084#1077#1088' ('#1074#1085#1080#1079')'
+      #1087#1086#1084#1080#1085#1091#1090#1099' ('#1074#1085#1080#1079')'
+      #1090#1072#1073#1072#1090#1072
+      #1090#1072#1081#1084#1077#1088' ('#1074#1074#1077#1088#1093')'
+      #1087#1086#1084#1080#1085#1091#1090#1099' ('#1074#1074#1077#1088#1093')')
+    ParentFont = False
+    TabOrder = 6
+    OnClick = RadioGroup1Click
+  end
+  object Button4: TButton
+    Left = 8
+    Top = 8
+    Width = 89
+    Height = 145
+    Caption = #1086#1073#1088#1072#1090#1085#1099#1081' '#1086#1090#1089#1095#1077#1090
+    Enabled = False
+    TabOrder = 7
+    WordWrap = True
+    OnClick = Button4Click
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 888
+    Top = 32
+  end
+  object Timer2: TTimer
+    Enabled = False
+    OnTimer = Timer2Timer
+    Left = 888
+    Top = 72
+  end
+  object Timer3: TTimer
+    Enabled = False
+    OnTimer = Timer3Timer
+    Left = 888
+    Top = 112
+  end
+  object Timer4: TTimer
+    Enabled = False
+    OnTimer = Timer4Timer
+    Left = 888
+    Top = 152
+  end
+  object Timer5: TTimer
+    Enabled = False
+    OnTimer = Timer5Timer
+    Left = 888
+    Top = 200
+  end
+  object Timer6: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = Timer6Timer
+    Left = 832
+    Top = 32
+  end
+  object Timer7: TTimer
+    Enabled = False
+    OnTimer = Timer7Timer
+    Left = 832
+    Top = 72
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 376
+    Top = 256
+    object N1: TMenuItem
+      Caption = #1044#1059
+      OnClick = N1Click
+    end
+  end
+end
